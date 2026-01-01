@@ -1,0 +1,23 @@
+.auth-container {
+  min-height: 100vh;
+  background: linear-gradient(120deg, #2980b9, #8e44ad);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-paper {
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  border-radius: 15px !important;
+}
+
+.auth-link {
+  color: #8e44ad;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.auth-link:hover {
+  text-decoration: underline;
+}
