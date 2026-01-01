@@ -27,7 +27,7 @@ function Signup() {
         
         try {
             // Updated API endpoint to match your Express server running on 3002
-            const response = await axios.post('http://localhost:3002/api/auth/signup', userData);
+            const response = await axios.post('http://3.110.174.73:3002/api/auth/signup', userData);
 
             setMessage('Registration successful! Please proceed to the login page.');
             setIsSuccess(true);
